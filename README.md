@@ -34,6 +34,16 @@ idf.py menuconfig
 ```
 
 
+```
+git submodule init && git submodule update
+```
+
+```  
+idf.py build
+```  
+
+
+
 
 
 
