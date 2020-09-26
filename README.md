@@ -16,7 +16,7 @@ clone the source code
 
 ```
 mkdir %userprofile%\esp
-cd cd %userprofile%\esp
+cd %userprofile%\esp
 git clone https://github.com/xiaolaba/ESP32_MP3_Decoder
 
 ```
@@ -24,7 +24,7 @@ brrow CMakeLists.txt from hello_world (https://docs.espressif.com/projects/esp-i
 
 change to source code director  
 ```  
-cd ESP32_MP3_Decoder
+cd %userprofile%\esp\ESP32_MP3_Decoder
 
 ```  
 
@@ -33,13 +33,30 @@ cd ESP32_MP3_Decoder
 idf.py menuconfig
 ```
 
+Enable Classic Bluetooth in Component config > Bluetooth > Bluedroid Bluetooth stack enabled > Classic Bluetooth, 
+then enable Bluetooth Speaker Mode via make menuconfig. 
+After flashing, you should see a Bluetooth device called "ESP_SPEAKER". 
+If you don't like that name, you can change it via menuconfig.
+
+
 
 ```
 git submodule init && git submodule update
 ```
 
+build
 ```  
 idf.py build
+```  
+
+build full clean
+```  
+idf.py fullclean
+```  
+
+build tool help
+```  
+idf.py -h
 ```  
 
 
