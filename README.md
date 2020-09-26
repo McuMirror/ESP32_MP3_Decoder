@@ -7,7 +7,9 @@ latest tool verison, esp-idf-v3.3.4, https://github.com/espressif/esp-idf/releas
 
 how to update the tool, https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup-update.html  
 
-how to test hello_world https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#get-started-set-up-tools
+
+### hello_world build, ok
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#get-started-set-up-tools
 
 ```  
 mkdir %userprofile%\esp  
@@ -24,7 +26,15 @@ idf.py build
 
 ```
 
+build hello_world, successed
 
+![esp32_hellow_world_build_ok.JPG](esp32_hellow_world_build_ok.JPG)  
+
+
+
+
+
+### build ESP32_MP3_Decoder, no good ?!
 open esp-idf command line   
 ```
 git submodule update --init
@@ -84,7 +94,7 @@ idf.py -h
 
 
 
-### build Failed, but why ?
+### build Failed, log, but why ?
 
 ```
 C:\Users\user0\esp\ESP32_MP3_Decoder>idf.py build
