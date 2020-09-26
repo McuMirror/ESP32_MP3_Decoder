@@ -6,7 +6,35 @@ python 3.7, Git, Powershell and or some other tools will be installed inherently
 latest tool verison, esp-idf-v3.3.4, https://github.com/espressif/esp-idf/releases  
 
 how to update the tool, https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup-update.html  
-  
+
+open esp-idf command line   
+```
+git submodule update --init
+```
+
+clone the source code  
+
+```
+mkdir %userprofile%\esp
+cd cd %userprofile%\esp
+git clone https://github.com/xiaolaba/ESP32_MP3_Decoder
+
+```
+brrow CMakeLists.txt from hello_world (https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/kconfig.html)
+
+change to source code director  
+```  
+cd ESP32_MP3_Decoder
+
+```  
+
+
+```
+idf.py menuconfig
+```
+
+
+
 
 
 
