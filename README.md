@@ -1,9 +1,13 @@
 ### win10, install the ESP-IDF tool for compilation  2020-SEP-26  
 read this https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html  
-download, https://dl.espressif.com/dl/esp-idf-tools-setup-2.3.exe, run this installer  
+download, https://dl.espressif.com/dl/esp-idf-tools-setup-2.3.exe, run this installer, defaule esp-idf v4.1 release  
+
+
 python 3.7, Git, Powershell and or some other tools will be installed inherently  
-  
-latest tool verison, esp-idf-v3.3.4, https://github.com/espressif/esp-idf/releases  
+
+
+~~latest tool verison, esp-idf-v3.3.4, https://github.com/espressif/esp-idf/releases  
+~~
 
 how to update the tool, https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup-update.html  
 
