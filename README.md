@@ -1,6 +1,6 @@
 ### win10, install the ESP-IDF tool for compilation  2020-SEP-26  
 read this https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html  
-~~download, https://dl.espressif.com/dl/esp-idf-tools-setup-2.3.exe, run this installer, default esp-idf v4.1 release  
+~~download, https://dl.espressif.com/dl/esp-idf-tools-setup-2.3.exe, run this installer, default esp-idf v4.1 release~~  
 
 2021-JUN-04, download, https://dl.espressif.com/dl/esp-idf-tools-setup-online-2.8.exe, run this installer, default esp-idf v4.2 release 
 
